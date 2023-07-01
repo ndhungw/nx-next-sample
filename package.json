@@ -2,7 +2,10 @@
   "name": "@my-nx/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "nx run my-nx:serve:development",
+    "build": "nx run my-nx:build:production"
+  },
   "private": true,
   "dependencies": {
     "@nx/next": "16.4.2",
